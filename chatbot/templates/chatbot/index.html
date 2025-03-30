@@ -1,118 +1,230 @@
-<!-- chatbot/templates/chatbot/index.html -->
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>TV Show Recommender ChatBot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .chat-container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-        }
-        .chat-messages {
-            height: 400px;
+            height: calc(100vh - 180px);
             overflow-y: auto;
-            margin-bottom: 20px;
-            padding: 10px;
-            border: 1px solid #eee;
-        }
-        .message {
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
         }
         .user-message {
-            background-color: #e3f2fd;
-            margin-left: 20%;
+            background-color: #e2f0fd;
+            border-radius: 18px 18px 0 18px;
         }
         .bot-message {
-            background-color: #f5f5f5;
-            margin-right: 20%;
+            background-color: #f0f0f0;
+            border-radius: 18px 18px 18px 0;
         }
-        .input-container {
-            display: flex;
-            gap: 10px;
+        .movie-card {
+            transition: transform 0.2s;
         }
-        input {
-            flex-grow: 1;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+        .movie-card:hover {
+            transform: translateY(-5px);
         }
-        button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+        .typing-indicator span {
+            animation: blink 1.4s infinite both;
         }
-        button:hover {
-            background-color: #0056b3;
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        @keyframes blink {
+            0% { opacity: 0.1; }
+            20% { opacity: 1; }
+            100% { opacity: 0.1; }
         }
     </style>
 </head>
-<body>
-    <div class="chat-container">
-        <h1>TV Show Recommender ChatBot</h1>
-        <div id="chat-messages" class="chat-messages"></div>
-        <div class="input-container">
-            <input type="text" id="user-input" placeholder="Ask me for show recommendations...">
-            <button onclick="sendMessage()">Send</button>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+            <!-- Header -->
+            <div class="bg-blue-600 text-white p-4">
+                <h1 class="text-xl font-bold">Movie Recommendation Chatbot</h1>
+                <p class="text-sm">Ask me about movies or tell me what you like to watch!</p>
+            </div>
+
+            <!-- Chat messages area -->
+            <div id="chat-container" class="chat-container p-4 bg-gray-50">
+                <div class="bot-message p-3 mb-4 max-w-md">
+                    <p>Hello! I'm your movie recommendation assistant. What kind of movies do you enjoy watching?</p>
+                </div>
+                <!-- Messages will be added here dynamically -->
+            </div>
+
+            <!-- Typing indicator (hidden by default) -->
+            <div id="typing-indicator" class="px-4 py-2 hidden">
+                <div class="bot-message p-3 inline-block typing-indicator">
+                    <span>•</span> <span>•</span> <span>•</span>
+                </div>
+            </div>
+
+            <!-- Input area -->
+            <div class="p-4 border-t border-gray-200 bg-white">
+                <form id="chat-form" class="flex">
+                    <input
+                        type="text"
+                        id="user-input"
+                        class="flex-grow border border-gray-300 rounded-l-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Type your message here..."
+                        autocomplete="off"
+                    >
+                    <button
+                        type="submit"
+                        class="bg-blue-600 text-white px-6 py-2 rounded-r-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
+                        Send
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 
+    <!-- Movie recommendation template (hidden, used for cloning) -->
+    <template id="movie-template">
+        <div class="movie-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg mt-2 mb-4">
+            <div class="p-3">
+                <div class="flex justify-between items-start">
+                    <h3 class="movie-title text-lg font-bold text-blue-600"></h3>
+                    <span class="movie-rating px-2 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full"></span>
+                </div>
+                <div class="movie-genre text-sm text-gray-600 mt-1"></div>
+                <p class="movie-description text-gray-700 mt-2 text-sm"></p>
+            </div>
+        </div>
+    </template>
+
     <script>
-        function addMessage(message, isUser) {
-            const messagesDiv = document.getElementById('chat-messages');
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
-            messageDiv.textContent = message;
-            messagesDiv.appendChild(messageDiv);
-            messagesDiv.scrollTop = messagesDiv.scrollHeight;
-        }
+        document.addEventListener('DOMContentLoaded', function() {
+            const chatContainer = document.getElementById('chat-container');
+            const chatForm = document.getElementById('chat-form');
+            const userInput = document.getElementById('user-input');
+            const typingIndicator = document.getElementById('typing-indicator');
+            const movieTemplate = document.getElementById('movie-template');
 
-        function sendMessage() {
-            const input = document.getElementById('user-input');
-            const message = input.value.trim();
-            if (!message) return;
-
-            // Add user message to chat
-            addMessage(message, true);
-            input.value = '';
-
-            // Send to backend
-            fetch('/chat/', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ message: message })
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Add bot response to chat
-                addMessage(data.message, false);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                addMessage('Sorry, I encountered an error. Please try again.', false);
-            });
-        }
-
-        // Allow sending with Enter key
-        document.getElementById('user-input').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                sendMessage();
+            // Scroll to bottom of chat
+            function scrollToBottom() {
+                chatContainer.scrollTop = chatContainer.scrollHeight;
             }
-        });
 
-        // Add welcome message
-        window.onload = function() {
-            addMessage('Hello! I can help you find TV shows to watch. Tell me what kind of shows you like (e.g., action, comedy, drama) or ask for recommendations!', false);
-        };
+            // Add message to chat
+            function addMessage(message, isBot = false) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = isBot
+                    ? 'bot-message p-3 mb-4 max-w-md'
+                    : 'user-message p-3 mb-4 ml-auto max-w-md';
+                messageDiv.innerHTML = `<p>${message}</p>`;
+                chatContainer.appendChild(messageDiv);
+                scrollToBottom();
+            }
+
+            // Add movie recommendations
+            function addMovieRecommendations(movies) {
+                const recommendationsDiv = document.createElement('div');
+                recommendationsDiv.className = 'mt-2 mb-4 grid grid-cols-1 gap-3';
+
+                movies.forEach(movie => {
+                    const movieCard = document.importNode(movieTemplate.content, true);
+                    movieCard.querySelector('.movie-title').textContent = movie.title;
+                    movieCard.querySelector('.movie-rating').textContent = `★ ${movie.rating}`;
+                    movieCard.querySelector('.movie-genre').textContent = movie.genre;
+                    movieCard.querySelector('.movie-description').textContent = movie.description;
+                    recommendationsDiv.appendChild(movieCard);
+                });
+
+                chatContainer.appendChild(recommendationsDiv);
+                scrollToBottom();
+            }
+
+            // Show typing indicator
+            function showTypingIndicator() {
+                typingIndicator.classList.remove('hidden');
+                scrollToBottom();
+            }
+
+            // Hide typing indicator
+            function hideTypingIndicator() {
+                typingIndicator.classList.add('hidden');
+            }
+
+            // Handle chat form submission
+            chatForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const message = userInput.value.trim();
+                if (!message) return;
+
+                // Add user message to chat
+                addMessage(message, false);
+
+                // Clear input
+                userInput.value = '';
+
+                // Show typing indicator
+                showTypingIndicator();
+
+                // Send message to server
+                fetch('/chat/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Hide typing indicator
+                    hideTypingIndicator();
+
+                    // Add bot message to chat
+                    addMessage(data.message, true);
+
+                    // Add movie recommendations if any
+                    if (data.recommendations && data.recommendations.length > 0) {
+                        addMovieRecommendations(data.recommendations);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    hideTypingIndicator();
+                    addMessage('Sorry, there was an error processing your request. Please try again.', true);
+                });
+            });
+
+            // Focus input on page load
+            userInput.focus();
+
+            // Add some example suggestions
+            const suggestions = [
+                "I'm looking for a good comedy",
+                "Recommend sci-fi movies",
+                "What are the top rated movies?",
+                "I like action movies with lots of stunts",
+                "Show me some romantic comedies",
+            ];
+
+            const suggestionsDiv = document.createElement('div');
+            suggestionsDiv.className = 'suggestions mt-4 flex flex-wrap gap-2';
+
+            suggestions.forEach(suggestion => {
+                const button = document.createElement('button');
+                button.className = 'bg-gray-200 hover:bg-gray-300 rounded-full px-3 py-1 text-sm text-gray-700';
+                button.textContent = suggestion;
+                button.addEventListener('click', () => {
+                    userInput.value = suggestion;
+                    chatForm.dispatchEvent(new Event('submit'));
+                });
+                suggestionsDiv.appendChild(button);
+            });
+
+            chatContainer.appendChild(suggestionsDiv);
+        });
     </script>
 </body>
 </html>

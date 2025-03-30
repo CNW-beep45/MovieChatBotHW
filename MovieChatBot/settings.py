@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -125,3 +125,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# TMDB API settings
+TMDB_API_KEY = os.environ.get('TMDB_API_KEY', '')  # Set this in your environment variables
+TMDB_API_URL = 'https://api.themoviedb.org/3'
+TMDB_IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/'
+TMDB_POSTER_SIZE = 'w500'  # Options: w92, w154, w185, w342, w500, w780, original
+TMDB_BACKDROP_SIZE = 'w1280'  # Options: w300, w780, w1280, original
+
+# Chatbot configuration
+CHATBOT_MAX_RECOMMENDATIONS = 5

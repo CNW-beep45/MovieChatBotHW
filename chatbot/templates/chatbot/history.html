@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History - Movie Recommendation Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800">Chat History</h1>
+                <a href="{% url 'chatbot:index' %}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Back to Chat</a>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="p-6">
+                    {% if messages %}
+                        <div class="space-y-4">
+                            {% for message in messages %}
+                                <div class="flex {% if message.is_bot %}justify-start{% else %}justify-end{% endif %}">
+                                    <div class="{% if message.is_bot %}bg-gray-100 rounded-lg p-4 max-w-md{% else %}bg-blue-100 rounded-lg p-4 max-w-md{% endif %}">
+                                        <div class="text-sm text-gray-500 mb-1">
+                                            {% if message.is_bot %}Bot{% else %}User{% endif %} - {{ message.timestamp|date:"M d, Y H:i" }}
+                                        </div>
+                                        <p class="text-gray-800">{{ message.message }}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        <p class="text-gray-600 text-center py-10">No chat history found.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
