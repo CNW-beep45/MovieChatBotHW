@@ -5,8 +5,7 @@ from django.conf import settings
 
 class TMDBClient:
     def __init__(self):
-        # Get API key from environment variable or settings
-        self.api_key = os.environ.get('TMDB_API_KEY', 'your_api_key_here')
+        self.api_key = os.environ.get('TMDB_API_KEY', '8b4cec984f5c9cd4446f231176f48d66')
         self.base_url = 'https://api.themoviedb.org/3'
 
     def search_movies(self, query, page=1):
@@ -45,7 +44,6 @@ class TMDBClient:
         }
 
         if genres:
-            # Convert genre names to IDs if needed
             if isinstance(genres[0], str):
                 genre_ids = self.get_genre_ids(genres)
                 if genre_ids:

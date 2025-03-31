@@ -206,28 +206,28 @@ class EnhancedChatBotNLP:
         # Handle greetings
         if 'greeting' in intents:
             return {
-                'message': nltk.random.choice(self.responses['greeting']),
+                'message': random.choice(self.responses['greeting']),
                 'requires_recommendation': False
             }
 
         # Handle farewells
         if 'farewell' in intents:
             return {
-                'message': nltk.random.choice(self.responses['farewell']),
+                'message': random.choice(self.responses['farewell']),
                 'requires_recommendation': False
             }
 
         # Handle gratitude
         if 'gratitude' in intents and len(intents) == 1:  # Only gratitude
             return {
-                'message': nltk.random.choice(self.responses['gratitude']),
+                'message': random.choice(self.responses['gratitude']),
                 'requires_recommendation': False
             }
 
         # When we have shows to recommend
         if shows and len(shows) > 0:
             # Generate different response based on detected genres
-            response = nltk.random.choice(self.responses['general'])
+            response = random.choice(self.responses['general'])
             show_titles = [show.title for show in shows]
 
             if genres:

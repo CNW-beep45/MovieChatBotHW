@@ -88,16 +88,21 @@
 
     <!-- Movie recommendation template (hidden, used for cloning) -->
     <template id="movie-template">
-        <div class="movie-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg mt-2 mb-4">
-            <div class="p-3">
+    <div class="movie-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg mt-2 mb-4">
+        <div class="flex flex-col md:flex-row">
+            <div class="movie-poster-container w-full md:w-1/3 md:max-w-xs">
+                <img class="movie-poster w-full h-auto object-cover" src="" alt="Movie poster" onerror="this.src='https://via.placeholder.com/300x450?text=No+Poster+Available'; this.onerror=null;">
+            </div>
+            <div class="p-3 w-full md:w-2/3">
                 <div class="flex justify-between items-start">
                     <h3 class="movie-title text-lg font-bold text-blue-600"></h3>
                     <span class="movie-rating px-2 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full"></span>
                 </div>
                 <div class="movie-genre text-sm text-gray-600 mt-1"></div>
-                <p class="movie-description text-gray-700 mt-2 text-sm"></p>
+                    <p class="movie-description text-gray-700 mt-2 text-sm"></p>
             </div>
         </div>
+    </div>
     </template>
 
     <script>
@@ -127,14 +132,27 @@
             // Add movie recommendations
             function addMovieRecommendations(movies) {
                 const recommendationsDiv = document.createElement('div');
-                recommendationsDiv.className = 'mt-2 mb-4 grid grid-cols-1 gap-3';
+                recommendationsDiv.className = 'mt-2 mb-4 grid grid-cols-1 gap-6';
 
                 movies.forEach(movie => {
                     const movieCard = document.importNode(movieTemplate.content, true);
+
+                    // Add movie details
                     movieCard.querySelector('.movie-title').textContent = movie.title;
                     movieCard.querySelector('.movie-rating').textContent = `★ ${movie.rating}`;
                     movieCard.querySelector('.movie-genre').textContent = movie.genre;
                     movieCard.querySelector('.movie-description').textContent = movie.description;
+
+                    // Set poster image if available
+                    const posterImg = movieCard.querySelector('.movie-poster');
+                    if (movie.poster_url) {
+                        posterImg.src = movie.poster_url;
+                        posterImg.alt = `${movie.title} poster`;
+                    } else {
+                        posterImg.src = 'https://via.placeholder.com/300x450?text=No+Poster+Available';
+                        posterImg.alt = 'No poster available';
+                    }
+
                     recommendationsDiv.appendChild(movieCard);
                 });
 
@@ -174,6 +192,8 @@
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
+                        // Add X-Requested-With header to help distinguish AJAX requests
+                        'X-Requested-With': 'XMLHttpRequest'
                     },
                     body: JSON.stringify({ message }),
                 })
