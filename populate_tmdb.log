@@ -1,0 +1,744 @@
+2025-03-30 22:15:02,282 - INFO - Starting TMDB database population script...
+2025-03-30 22:15:02,295 - INFO - Found 20 existing shows in database
+2025-03-30 22:15:02,363 - INFO - Successfully connected to TMDB API
+2025-03-30 22:15:02,363 - INFO - Fetching popular movies page 1
+2025-03-30 22:15:02,427 - INFO - Found 20 movies on page 1
+2025-03-30 22:15:02,534 - INFO - Skipped (already exists): Cleaner
+2025-03-30 22:15:02,868 - INFO - Skipped (already exists): Cosmic Chaos
+2025-03-30 22:15:03,207 - INFO - Skipped (already exists): The Codes of War
+2025-03-30 22:15:03,565 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:15:03,899 - INFO - Skipped (already exists): Carjackers
+2025-03-30 22:15:04,238 - INFO - Skipped (already exists): The Quiet Ones
+2025-03-30 22:15:04,596 - INFO - Skipped (already exists): Snow White
+2025-03-30 22:15:04,985 - INFO - Skipped (already exists): Popeye the Slayer Man
+2025-03-30 22:15:05,334 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:15:05,668 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:15:06,010 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:15:06,349 - INFO - Skipped (already exists): Holland
+2025-03-30 22:15:06,707 - INFO - Skipped (already exists): Batman Ninja vs. Yakuza League
+2025-03-30 22:15:07,056 - INFO - Skipped (already exists): Z Zone
+2025-03-30 22:15:07,399 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:15:07,737 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:15:08,077 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:15:08,417 - INFO - Skipped (already exists): Old Guy
+2025-03-30 22:15:08,779 - INFO - Skipped (already exists): The Electric State
+2025-03-30 22:15:09,124 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:15:09,376 - INFO - Fetching popular movies page 2
+2025-03-30 22:15:09,479 - INFO - Found 20 movies on page 2
+2025-03-30 22:15:09,594 - INFO - Added: Demon City (Action, Crime, Fantasy, Thriller) - Rating: 6.9
+2025-03-30 22:15:10,104 - INFO - Added: The Life List (Romance, Comedy, Drama) - Rating: 6.9
+2025-03-30 22:15:10,496 - INFO - Added: Frogman (Horror, Fantasy) - Rating: 4.4
+2025-03-30 22:15:10,862 - INFO - Added: Hellhound (Action, Crime, Thriller) - Rating: 6.468
+2025-03-30 22:15:11,240 - INFO - Added: The Monkey (Horror, Comedy) - Rating: 5.9
+2025-03-30 22:15:11,617 - INFO - Added: The Vigilante (Thriller, Action) - Rating: 5.9
+2025-03-30 22:15:11,988 - INFO - Added: Sky Force (Action, Thriller) - Rating: 7.5
+2025-03-30 22:15:12,380 - INFO - Added: Dark Match (Action, Horror) - Rating: 4.8
+2025-03-30 22:15:12,771 - INFO - Added: A Minecraft Movie (Family, Comedy, Adventure, Fantasy) - Rating: 7.1
+2025-03-30 22:15:13,144 - INFO - Added: Companion (Comedy, Horror, Science Fiction, Thriller) - Rating: 7.075
+2025-03-30 22:15:13,521 - INFO - Added: I, the Executioner (Action, Crime) - Rating: 7.0
+2025-03-30 22:15:13,900 - INFO - Added: Kraven the Hunter (Action, Adventure, Thriller) - Rating: 6.626
+2025-03-30 22:15:14,264 - INFO - Added: Amaran (Action, Drama, Adventure, War) - Rating: 7.4
+2025-03-30 22:15:14,627 - INFO - Added: Plankton: The Movie (Animation, Adventure, Comedy, Family, Fantasy) - Rating: 6.9
+2025-03-30 22:15:15,001 - INFO - Added: Giro final (Horror) - Rating: 0.0
+2025-03-30 22:15:15,374 - INFO - Added: Venom: The Last Dance (Action, Science Fiction, Adventure) - Rating: 6.784
+2025-03-30 22:15:15,745 - INFO - Added: Flow (Animation, Fantasy, Adventure) - Rating: 8.26
+2025-03-30 22:15:16,123 - INFO - Added: Revelations (Thriller, Crime, Mystery) - Rating: 6.388
+2025-03-30 22:15:16,503 - INFO - Added: Memoir of a Snail (Animation, Drama, Comedy) - Rating: 7.95
+2025-03-30 22:15:16,875 - INFO - Added: Solo Leveling -ReAwakening- (Action, Adventure, Fantasy, Animation) - Rating: 6.9
+2025-03-30 22:15:17,126 - INFO - Fetching popular movies page 3
+2025-03-30 22:15:17,254 - INFO - Found 20 movies on page 3
+2025-03-30 22:15:17,377 - INFO - Added: Mickey 17 (Science Fiction, Comedy, Adventure) - Rating: 7.0
+2025-03-30 22:15:17,742 - INFO - Added: Mar.IA (Horror, Thriller, Science Fiction) - Rating: 0.0
+2025-03-30 22:15:18,116 - INFO - Added: Panda Plan (Action, Comedy) - Rating: 7.0
+2025-03-30 22:15:18,496 - INFO - Added: Deadpool & Wolverine (Action, Comedy, Science Fiction) - Rating: 7.6
+2025-03-30 22:15:18,878 - INFO - Added: Gladiator II (Action, Adventure, Drama) - Rating: 6.765
+2025-03-30 22:15:19,244 - INFO - Added: Bloat (Horror) - Rating: 4.5
+2025-03-30 22:15:19,610 - INFO - Added: Presence (Horror, Drama, Thriller) - Rating: 5.9
+2025-03-30 22:15:20,028 - INFO - Added: Uppercut (Drama, Thriller) - Rating: 4.2
+2025-03-30 22:15:20,403 - INFO - Added: Tyler Perry's Duplicity (Thriller, Drama) - Rating: 6.704
+2025-03-30 22:15:20,797 - INFO - Added: Despicable Me 4 (Animation, Family, Comedy, Science Fiction) - Rating: 7.054
+2025-03-30 22:15:21,172 - INFO - Added: Love Hurts (Action, Comedy, Romance) - Rating: 5.9
+2025-03-30 22:15:21,546 - INFO - Added: Henry Danger: The Movie (Action, Comedy, Family, Science Fiction) - Rating: 7.769
+2025-03-30 22:15:21,930 - INFO - Added: Chuck Billy and The Marvelous Guava Tree (Family, Adventure, Comedy) - Rating: 7.952
+2025-03-30 22:15:22,323 - INFO - Added: Anora (Drama, Comedy, Romance) - Rating: 7.05
+2025-03-30 22:15:22,703 - INFO - Added: The Wild Robot (Animation, Science Fiction, Family) - Rating: 8.3
+2025-03-30 22:15:23,081 - INFO - Added: Squad 36 (Action, Crime, Drama, Thriller) - Rating: 6.3
+2025-03-30 22:15:23,454 - INFO - Added: My Fault (Romance, Drama) - Rating: 7.825
+2025-03-30 22:15:23,837 - INFO - Added: The Substance (Horror, Science Fiction) - Rating: 7.135
+2025-03-30 22:15:24,258 - INFO - Added: Control Freak (Horror) - Rating: 5.5
+2025-03-30 22:15:24,624 - INFO - Added: Ask Me What You Want (Romance, Drama) - Rating: 6.0
+2025-03-30 22:15:24,875 - INFO - Added 40 popular movies
+2025-03-30 22:15:25,358 - INFO - Processing genre: Action
+2025-03-30 22:15:25,481 - INFO - Found 20 movies for genre Action
+2025-03-30 22:15:25,548 - INFO - Skipped (already exists): Cleaner
+2025-03-30 22:15:25,863 - INFO - Skipped (already exists): The Codes of War
+2025-03-30 22:15:26,176 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:15:26,496 - INFO - Skipped (already exists): Carjackers
+2025-03-30 22:15:26,805 - INFO - Skipped (already exists): The Quiet Ones
+2025-03-30 22:15:27,167 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:15:27,608 - INFO - Skipped (already exists): Batman Ninja vs. Yakuza League
+2025-03-30 22:15:27,944 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:15:28,260 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:15:28,572 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:15:28,823 - INFO - Processing genre: Adventure
+2025-03-30 22:15:28,940 - INFO - Found 20 movies for genre Adventure
+2025-03-30 22:15:28,999 - INFO - Skipped (already exists): Carjackers
+2025-03-30 22:15:29,309 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:15:29,619 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:15:29,933 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:15:30,251 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:15:30,563 - INFO - Skipped (already exists): The Electric State
+2025-03-30 22:15:30,919 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:15:31,257 - INFO - Skipped (already exists): Kraven the Hunter
+2025-03-30 22:15:31,601 - INFO - Skipped (already exists): Amaran
+2025-03-30 22:15:31,935 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:15:32,186 - INFO - Processing genre: Animation
+2025-03-30 22:15:32,306 - INFO - Found 20 movies for genre Animation
+2025-03-30 22:15:32,373 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:15:32,686 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:15:32,995 - INFO - Skipped (already exists): Batman Ninja vs. Yakuza League
+2025-03-30 22:15:33,316 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:15:33,651 - INFO - Skipped (already exists): Flow
+2025-03-30 22:15:33,993 - INFO - Skipped (already exists): Memoir of a Snail
+2025-03-30 22:15:34,338 - INFO - Skipped (already exists): Solo Leveling -ReAwakening-
+2025-03-30 22:15:34,679 - INFO - Skipped (already exists): Despicable Me 4
+2025-03-30 22:15:35,019 - INFO - Skipped (already exists): The Wild Robot
+2025-03-30 22:15:35,405 - INFO - Added: Inside Out 2 (Animation, Adventure, Comedy, Family) - Rating: 7.557
+2025-03-30 22:15:35,656 - INFO - Processing genre: Comedy
+2025-03-30 22:15:35,843 - INFO - Found 20 movies for genre Comedy
+2025-03-30 22:15:35,908 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:15:36,219 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:15:36,532 - INFO - Skipped (already exists): Old Guy
+2025-03-30 22:15:36,873 - INFO - Skipped (already exists): The Life List
+2025-03-30 22:15:37,215 - INFO - Skipped (already exists): The Monkey
+2025-03-30 22:15:37,526 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:15:37,868 - INFO - Skipped (already exists): Companion
+2025-03-30 22:15:38,180 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:15:38,536 - INFO - Skipped (already exists): Memoir of a Snail
+2025-03-30 22:15:38,878 - INFO - Skipped (already exists): Mickey 17
+2025-03-30 22:15:39,129 - INFO - Processing genre: Crime
+2025-03-30 22:15:39,252 - INFO - Found 20 movies for genre Crime
+2025-03-30 22:15:39,312 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:15:39,629 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:15:39,983 - INFO - Skipped (already exists): Demon City
+2025-03-30 22:15:40,322 - INFO - Skipped (already exists): Hellhound
+2025-03-30 22:15:40,663 - INFO - Skipped (already exists): I, the Executioner
+2025-03-30 22:15:41,014 - INFO - Skipped (already exists): Revelations
+2025-03-30 22:15:41,355 - INFO - Skipped (already exists): Squad 36
+2025-03-30 22:15:41,731 - INFO - Added: Alarum (Action, Crime, Thriller) - Rating: 5.8
+2025-03-30 22:15:42,152 - INFO - Added: xXx (Action, Adventure, Thriller, Crime) - Rating: 5.9
+2025-03-30 22:15:42,529 - INFO - Added: The Shawshank Redemption (Drama, Crime) - Rating: 8.7
+2025-03-30 22:15:42,780 - INFO - Processing genre: Documentary
+2025-03-30 22:15:42,916 - INFO - Found 20 movies for genre Documentary
+2025-03-30 22:15:43,049 - INFO - Added: Le Clitoris (Animation, Documentary) - Rating: 6.8
+2025-03-30 22:15:43,421 - INFO - Added: Con Mum (Documentary, Crime) - Rating: 8.1
+2025-03-30 22:15:43,902 - INFO - Added: The Twister: Caught in the Storm (Documentary) - Rating: 6.2
+2025-03-30 22:15:44,267 - INFO - Added: Playboy Video Playmate Calendar 2000 (Documentary) - Rating: 1.0
+2025-03-30 22:15:44,635 - INFO - Added: Squid Game: Making Season 2 (Documentary) - Rating: 8.5
+2025-03-30 22:15:44,999 - INFO - Added: 2073 (Thriller, Documentary, Science Fiction) - Rating: 7.011
+2025-03-30 22:15:45,371 - INFO - Added: Chaos: The Manson Murders (Documentary, Crime) - Rating: 6.219
+2025-03-30 22:15:45,813 - INFO - Added: Making Squid Game: The Challenge (Documentary) - Rating: 7.015
+2025-03-30 22:15:46,189 - INFO - Added: Who Is Luigi Mangione? (Documentary) - Rating: 5.9
+2025-03-30 22:15:46,564 - INFO - Added: Africa Addio (Documentary, Horror) - Rating: 6.3
+2025-03-30 22:15:46,814 - INFO - Processing genre: Drama
+2025-03-30 22:15:46,956 - INFO - Found 20 movies for genre Drama
+2025-03-30 22:15:47,023 - INFO - Skipped (already exists): The Quiet Ones
+2025-03-30 22:15:47,341 - INFO - Skipped (already exists): The Life List
+2025-03-30 22:15:47,650 - INFO - Skipped (already exists): Amaran
+2025-03-30 22:15:47,961 - INFO - Skipped (already exists): Memoir of a Snail
+2025-03-30 22:15:48,299 - INFO - Skipped (already exists): Gladiator II
+2025-03-30 22:15:48,634 - INFO - Skipped (already exists): Presence
+2025-03-30 22:15:48,971 - INFO - Skipped (already exists): Uppercut
+2025-03-30 22:15:49,326 - INFO - Skipped (already exists): Tyler Perry's Duplicity
+2025-03-30 22:15:49,663 - INFO - Skipped (already exists): Anora
+2025-03-30 22:15:49,978 - INFO - Skipped (already exists): Squad 36
+2025-03-30 22:15:50,229 - INFO - Processing genre: Family
+2025-03-30 22:15:50,346 - INFO - Found 20 movies for genre Family
+2025-03-30 22:15:50,485 - INFO - Skipped (already exists): Snow White
+2025-03-30 22:15:50,796 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:15:51,113 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:15:51,429 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:15:51,752 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:15:52,067 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:15:52,383 - INFO - Skipped (already exists): Despicable Me 4
+2025-03-30 22:15:52,717 - INFO - Skipped (already exists): Henry Danger: The Movie
+2025-03-30 22:15:53,058 - INFO - Skipped (already exists): Chuck Billy and The Marvelous Guava Tree
+2025-03-30 22:15:53,368 - INFO - Skipped (already exists): The Wild Robot
+2025-03-30 22:15:53,618 - INFO - Processing genre: Fantasy
+2025-03-30 22:15:53,744 - INFO - Found 20 movies for genre Fantasy
+2025-03-30 22:15:53,831 - INFO - Skipped (already exists): Snow White
+2025-03-30 22:15:54,148 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:15:54,459 - INFO - Skipped (already exists): Demon City
+2025-03-30 22:15:54,792 - INFO - Skipped (already exists): Frogman
+2025-03-30 22:15:55,116 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:15:55,432 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:15:55,741 - INFO - Skipped (already exists): Flow
+2025-03-30 22:15:56,057 - INFO - Skipped (already exists): Solo Leveling -ReAwakening-
+2025-03-30 22:15:56,424 - INFO - Added: Dalia and the Red Book (Adventure, Drama, Fantasy, Animation) - Rating: 7.2
+2025-03-30 22:15:56,809 - INFO - Added: Red One (Action, Comedy, Fantasy) - Rating: 7.06
+2025-03-30 22:15:57,060 - INFO - Processing genre: History
+2025-03-30 22:15:57,175 - INFO - Found 20 movies for genre History
+2025-03-30 22:15:57,298 - INFO - Added: Oppenheimer (Drama, History) - Rating: 8.066
+2025-03-30 22:15:57,675 - INFO - Added: Napoleon (History, War, Romance) - Rating: 6.35
+2025-03-30 22:15:58,042 - INFO - Added: I'm Still Here (Drama, History) - Rating: 7.967
+2025-03-30 22:15:58,416 - INFO - Added: Hidden Figures (Drama, History) - Rating: 8.055
+2025-03-30 22:15:58,971 - INFO - Added: Schindler's List (Drama, History, War) - Rating: 8.566
+2025-03-30 22:15:59,375 - INFO - Added: The Fire Inside (History, Drama) - Rating: 7.221
+2025-03-30 22:15:59,748 - INFO - Added: Saving Private Ryan (Drama, History, War) - Rating: 8.217
+2025-03-30 22:16:00,143 - INFO - Added: Hacksaw Ridge (Drama, History, War) - Rating: 8.2
+2025-03-30 22:16:00,522 - INFO - Added: The Imitation Game (History, Drama, Thriller, War) - Rating: 7.995
+2025-03-30 22:16:00,897 - INFO - Added: Troy (Adventure, History, War) - Rating: 7.164
+2025-03-30 22:16:01,148 - INFO - Processing genre: Horror
+2025-03-30 22:16:01,268 - INFO - Found 20 movies for genre Horror
+2025-03-30 22:16:01,334 - INFO - Skipped (already exists): Popeye the Slayer Man
+2025-03-30 22:16:01,653 - INFO - Skipped (already exists): Z Zone
+2025-03-30 22:16:01,968 - INFO - Skipped (already exists): Frogman
+2025-03-30 22:16:02,292 - INFO - Skipped (already exists): The Monkey
+2025-03-30 22:16:02,627 - INFO - Skipped (already exists): Dark Match
+2025-03-30 22:16:02,944 - INFO - Skipped (already exists): Companion
+2025-03-30 22:16:03,283 - INFO - Skipped (already exists): Giro final
+2025-03-30 22:16:03,617 - INFO - Skipped (already exists): Mar.IA
+2025-03-30 22:16:03,957 - INFO - Skipped (already exists): Bloat
+2025-03-30 22:16:04,272 - INFO - Skipped (already exists): Presence
+2025-03-30 22:16:04,522 - INFO - Processing genre: Music
+2025-03-30 22:16:04,700 - INFO - Found 20 movies for genre Music
+2025-03-30 22:16:04,827 - INFO - Added: Coco (Family, Animation, Music, Adventure) - Rating: 8.204
+2025-03-30 22:16:05,209 - INFO - Added: A Complete Unknown (Drama, Music) - Rating: 7.15
+2025-03-30 22:16:05,581 - INFO - Added: O'Dessa (Music, Drama, Science Fiction) - Rating: 6.275
+2025-03-30 22:16:05,988 - INFO - Added: Better Man (Music, Drama) - Rating: 7.832
+2025-03-30 22:16:06,356 - INFO - Added: Whiplash (Drama, Music) - Rating: 8.374
+2025-03-30 22:16:06,735 - INFO - Added: La La Land (Comedy, Drama, Romance, Music) - Rating: 7.9
+2025-03-30 22:16:07,106 - INFO - Added: Sing: Thriller (Animation, Family, Comedy, Music) - Rating: 7.2
+2025-03-30 22:16:07,498 - INFO - Added: Tabu (Comedy, Music) - Rating: 6.1
+2025-03-30 22:16:07,863 - INFO - Added: Sing 2 (Animation, Family, Music, Comedy) - Rating: 7.848
+2025-03-30 22:16:08,243 - INFO - Added: Trolls Band Together (Animation, Family, Music, Fantasy, Comedy) - Rating: 7.3
+2025-03-30 22:16:08,494 - INFO - Processing genre: Mystery
+2025-03-30 22:16:08,611 - INFO - Found 20 movies for genre Mystery
+2025-03-30 22:16:08,676 - INFO - Skipped (already exists): Holland
+2025-03-30 22:16:08,991 - INFO - Skipped (already exists): Revelations
+2025-03-30 22:16:09,360 - INFO - Added: Black Bag (Drama, Thriller, Mystery) - Rating: 6.6
+2025-03-30 22:16:09,735 - INFO - Added: Final Destination Bloodlines (Horror, Mystery) - Rating: 0.0
+2025-03-30 22:16:10,101 - INFO - Added: The Curse of the Necklace (Horror, Mystery, Thriller) - Rating: 5.672
+2025-03-30 22:16:10,681 - INFO - Added: Fast X (Action, Crime, Thriller, Adventure, Mystery) - Rating: 7.049
+2025-03-30 22:16:11,076 - INFO - Added: Absolution (Action, Crime, Thriller, Mystery) - Rating: 5.918
+2025-03-30 22:16:11,447 - INFO - Added: Smile 2 (Horror, Mystery) - Rating: 6.598
+2025-03-30 22:16:11,821 - INFO - Added: Conclave (Drama, Thriller, Mystery) - Rating: 7.176
+2025-03-30 22:16:12,203 - INFO - Added: The Maze Runner (Action, Mystery, Science Fiction, Thriller) - Rating: 7.2
+2025-03-30 22:16:12,454 - INFO - Processing genre: Romance
+2025-03-30 22:16:12,575 - INFO - Found 20 movies for genre Romance
+2025-03-30 22:16:12,643 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:16:12,957 - INFO - Skipped (already exists): The Life List
+2025-03-30 22:16:13,297 - INFO - Skipped (already exists): Love Hurts
+2025-03-30 22:16:13,632 - INFO - Skipped (already exists): Anora
+2025-03-30 22:16:13,974 - INFO - Skipped (already exists): My Fault
+2025-03-30 22:16:14,308 - INFO - Skipped (already exists): Ask Me What You Want
+2025-03-30 22:16:14,745 - INFO - Added: The Glassworker (Animation, Family, Romance, War) - Rating: 8.0
+2025-03-30 22:16:15,110 - INFO - Added: Your Fault (Romance, Drama) - Rating: 7.123
+2025-03-30 22:16:15,708 - INFO - Added: Wicked (Drama, Romance, Fantasy) - Rating: 6.926
+2025-03-30 22:16:16,083 - INFO - Added: My Fault: London (Romance, Drama) - Rating: 7.484
+2025-03-30 22:16:16,334 - INFO - Processing genre: Science Fiction
+2025-03-30 22:16:16,639 - INFO - Found 20 movies for genre Science Fiction
+2025-03-30 22:16:16,698 - INFO - Skipped (already exists): Cosmic Chaos
+2025-03-30 22:16:17,009 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:16:17,326 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:16:17,646 - INFO - Skipped (already exists): The Electric State
+2025-03-30 22:16:17,965 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:16:18,282 - INFO - Skipped (already exists): Companion
+2025-03-30 22:16:18,616 - INFO - Skipped (already exists): Venom: The Last Dance
+2025-03-30 22:16:18,933 - INFO - Skipped (already exists): Mickey 17
+2025-03-30 22:16:19,241 - INFO - Skipped (already exists): Mar.IA
+2025-03-30 22:16:19,600 - INFO - Skipped (already exists): Deadpool & Wolverine
+2025-03-30 22:16:19,851 - INFO - Processing genre: TV Movie
+2025-03-30 22:16:19,968 - INFO - Found 20 movies for genre TV Movie
+2025-03-30 22:16:20,086 - INFO - Added: Anastasia (Drama, TV Movie) - Rating: 0.0
+2025-03-30 22:16:20,465 - INFO - Added: SpongeBob Squarepants: Kreepaway Kamp (TV Movie, Family, Comedy, Horror, Animation) - Rating: 7.1
+2025-03-30 22:16:20,972 - INFO - Added: Girl in the Basement (Thriller, Crime, TV Movie) - Rating: 7.6
+2025-03-30 22:16:21,344 - INFO - Added: Death Note Relight 1: Visions of a God (TV Movie, Crime, Drama, Fantasy, Thriller, Animation) - Rating: 7.9
+2025-03-30 22:16:21,726 - INFO - Added: Leroy & Stitch (Animation, Comedy, Family, TV Movie) - Rating: 6.551
+2025-03-30 22:16:22,091 - INFO - Added: Death Note Relight 2: L's Successors (TV Movie, Thriller, Animation, Crime, Drama, Fantasy) - Rating: 7.287
+2025-03-30 22:16:22,462 - INFO - Added: Feast of the Fallen Angels (Animation, TV Movie, Horror) - Rating: 0.0
+2025-03-30 22:16:22,841 - INFO - Added: Little Women: Jo's Story (TV Movie, Drama, Romance) - Rating: 0.0
+2025-03-30 22:16:23,229 - INFO - Added: Teen Wolf: The Movie (Action, Fantasy, TV Movie) - Rating: 7.507
+2025-03-30 22:16:23,621 - INFO - Added: Descendants (Family, Adventure, Fantasy, TV Movie) - Rating: 7.1
+2025-03-30 22:16:23,872 - INFO - Processing genre: Thriller
+2025-03-30 22:16:24,006 - INFO - Found 20 movies for genre Thriller
+2025-03-30 22:16:24,068 - INFO - Skipped (already exists): Cleaner
+2025-03-30 22:16:24,384 - INFO - Skipped (already exists): Cosmic Chaos
+2025-03-30 22:16:24,697 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:16:25,008 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:16:25,324 - INFO - Skipped (already exists): Holland
+2025-03-30 22:16:25,633 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:16:25,949 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:16:26,266 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:16:26,575 - INFO - Skipped (already exists): Demon City
+2025-03-30 22:16:26,884 - INFO - Skipped (already exists): Hellhound
+2025-03-30 22:16:27,136 - INFO - Processing genre: War
+2025-03-30 22:16:27,254 - INFO - Found 20 movies for genre War
+2025-03-30 22:16:27,316 - INFO - Skipped (already exists): The Codes of War
+2025-03-30 22:16:27,626 - INFO - Skipped (already exists): Amaran
+2025-03-30 22:16:27,964 - INFO - Skipped (already exists): The Glassworker
+2025-03-30 22:16:28,334 - INFO - Added: Dirty Angels (Action, Drama, Thriller, War) - Rating: 6.18
+2025-03-30 22:16:28,679 - INFO - Skipped (already exists): Napoleon
+2025-03-30 22:16:29,019 - INFO - Skipped (already exists): Schindler's List
+2025-03-30 22:16:29,386 - INFO - Added: She Devils of the SS (Drama, War) - Rating: 5.03
+2025-03-30 22:16:29,759 - INFO - Added: Fury (War, Drama, Action) - Rating: 7.539
+2025-03-30 22:16:30,147 - INFO - Added: Civil War (War, Action, Drama) - Rating: 6.873
+2025-03-30 22:16:30,489 - INFO - Skipped (already exists): Saving Private Ryan
+2025-03-30 22:16:30,740 - INFO - Processing genre: Western
+2025-03-30 22:16:30,996 - INFO - Found 20 movies for genre Western
+2025-03-30 22:16:31,121 - INFO - Added: Django Unchained (Drama, Western) - Rating: 8.183
+2025-03-30 22:16:31,514 - INFO - Added: The Good, the Bad and the Ugly (Western) - Rating: 8.462
+2025-03-30 22:16:31,893 - INFO - Added: The Revenant (Western, Drama, Adventure) - Rating: 7.533
+2025-03-30 22:16:32,269 - INFO - Added: Once Upon a Time in the West (Drama, Western) - Rating: 8.283
+2025-03-30 22:16:32,633 - INFO - Added: Redeeming Love (Romance, Drama, Western) - Rating: 7.821
+2025-03-30 22:16:33,002 - INFO - Added: El Infierno (Action, Crime, Western, Comedy, Drama) - Rating: 7.89
+2025-03-30 22:16:33,379 - INFO - Added: The Hateful Eight (Drama, Mystery, Western) - Rating: 7.8
+2025-03-30 22:16:33,775 - INFO - Added: Spirit: Stallion of the Cimarron (Animation, Adventure, Family, Drama, Western, Romance) - Rating: 7.7
+2025-03-30 22:16:34,161 - INFO - Added: Rango (Animation, Comedy, Family, Western, Adventure) - Rating: 6.87
+2025-03-30 22:16:34,534 - INFO - Added: Legends of the Fall (Drama, Western, Romance, War, Action) - Rating: 7.391
+2025-03-30 22:16:34,785 - INFO - Added 72 genre-specific movies
+2025-03-30 22:16:34,785 - INFO - Searching for: comedy
+2025-03-30 22:16:34,956 - INFO - Found 20 results for 'comedy'
+2025-03-30 22:16:35,078 - INFO - Added: Comedy (Drama, Comedy) - Rating: 0.0
+2025-03-30 22:16:35,449 - INFO - Added: This Is Not a Comedy (Drama, Comedy) - Rating: 6.2
+2025-03-30 22:16:35,818 - INFO - Added: Romantic Comedy (Documentary) - Rating: 6.0
+2025-03-30 22:16:36,192 - INFO - Added: Sex Is Comedy (Comedy, Drama) - Rating: 5.8
+2025-03-30 22:16:36,555 - INFO - Added: Hannibal Buress: Comedy Camisado (Comedy) - Rating: 6.2
+2025-03-30 22:16:36,806 - INFO - Searching for: sci-fi
+2025-03-30 22:16:36,910 - INFO - Found 20 results for 'sci-fi'
+2025-03-30 22:16:37,027 - INFO - Added: Sci-Fi West Saga Starzinger (Science Fiction, Animation, Adventure) - Rating: 6.0
+2025-03-30 22:16:37,418 - INFO - Added: Sci-Fi High: The Movie Musical (Comedy, Science Fiction, Music) - Rating: 6.5
+2025-03-30 22:16:37,786 - INFO - Added: Deformity Sci-Fi (Science Fiction) - Rating: 0.0
+2025-03-30 22:16:38,166 - INFO - Added: Sci-fighters (Action, Science Fiction, Thriller) - Rating: 4.9
+2025-03-30 22:16:38,540 - INFO - Added: Hollywood between Paranoia and Sci-Fi: The Power of Myth (Documentary, TV Movie) - Rating: 5.5
+2025-03-30 22:16:38,792 - INFO - Searching for: romance
+2025-03-30 22:16:38,895 - INFO - Found 20 results for 'romance'
+2025-03-30 22:16:39,018 - INFO - Added: Romance (Drama, Romance) - Rating: 5.5
+2025-03-30 22:16:39,418 - INFO - Skipped (already exists): Romance
+2025-03-30 22:16:39,779 - INFO - Skipped (already exists): Romance
+2025-03-30 22:16:40,165 - INFO - Skipped (already exists): Romance
+2025-03-30 22:16:40,540 - INFO - Skipped (already exists): Romance
+2025-03-30 22:16:40,791 - INFO - Searching for: animated
+2025-03-30 22:16:40,895 - INFO - Found 20 results for 'animated'
+2025-03-30 22:16:41,014 - INFO - Added: Animated () - Rating: 0.0
+2025-03-30 22:16:41,385 - INFO - Added: Street Fighter II: The Animated Movie (Animation, Action) - Rating: 7.1
+2025-03-30 22:16:41,754 - INFO - Added: Game of Thrones - Conquest & Rebellion: An Animated History of the Seven Kingdoms (Animation, Fantasy, War, TV Movie) - Rating: 7.7
+2025-03-30 22:16:42,118 - INFO - Added: KOF XV - Special Animated Short (Action, Animation) - Rating: 4.5
+2025-03-30 22:16:42,488 - INFO - Added: The Best of Rooster Teeth Animated Adventures (Animation, Comedy) - Rating: 9.0
+2025-03-30 22:16:42,739 - INFO - Searching for: action
+2025-03-30 22:16:42,842 - INFO - Found 20 results for 'action'
+2025-03-30 22:16:42,959 - INFO - Added: Action (Drama) - Rating: 4.3
+2025-03-30 22:16:43,320 - INFO - Skipped (already exists): Action
+2025-03-30 22:16:43,754 - INFO - Skipped (already exists): Action
+2025-03-30 22:16:44,107 - INFO - Skipped (already exists): Action
+2025-03-30 22:16:44,480 - INFO - Added: Action! () - Rating: 0.0
+2025-03-30 22:16:44,730 - INFO - Searching for: thriller
+2025-03-30 22:16:44,827 - INFO - Found 20 results for 'thriller'
+2025-03-30 22:16:44,948 - INFO - Added: Thriller (Horror, Mystery) - Rating: 4.2
+2025-03-30 22:16:45,311 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:16:45,660 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:16:46,021 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:16:46,377 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:16:46,629 - INFO - Searching for: documentary
+2025-03-30 22:16:46,738 - INFO - Found 20 results for 'documentary'
+2025-03-30 22:16:46,859 - INFO - Added: Documentary (Documentary) - Rating: 0.0
+2025-03-30 22:16:47,233 - INFO - Added: DOCUMENTARY () - Rating: 0.0
+2025-03-30 22:16:47,604 - INFO - Added: Holding On: A Widowdusk Documentary (Documentary) - Rating: 0.0
+2025-03-30 22:16:47,972 - INFO - Added: Friday the 13th: From Crystal Lake to Manhattan (Crystal Lake Victims Tell All - Documentary) (Horror, History) - Rating: 7.0
+2025-03-30 22:16:48,346 - INFO - Added: Psychic Documentary: Hair-Raising Spiritual Boundary Phenomenon!! (Horror) - Rating: 0.0
+2025-03-30 22:16:48,597 - INFO - Searching for: fantasy
+2025-03-30 22:16:48,704 - INFO - Found 20 results for 'fantasy'
+2025-03-30 22:16:48,817 - INFO - Added: Fantasy (Animation, Horror, Music) - Rating: 9.1
+2025-03-30 22:16:49,168 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:16:49,538 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:16:49,903 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:16:50,269 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:16:50,520 - INFO - Searching for: horror
+2025-03-30 22:16:50,624 - INFO - Found 20 results for 'horror'
+2025-03-30 22:16:50,743 - INFO - Added: The Blancheville Monster (Horror) - Rating: 5.3
+2025-03-30 22:16:51,107 - INFO - Added: #Horror (Crime, Horror, Thriller) - Rating: 3.6
+2025-03-30 22:16:51,492 - INFO - Added: Horror (Documentary) - Rating: 0.0
+2025-03-30 22:16:51,865 - INFO - Skipped (already exists): Horror
+2025-03-30 22:16:52,282 - INFO - Skipped (already exists): Horror
+2025-03-30 22:16:52,534 - INFO - Searching for: musical
+2025-03-30 22:16:52,639 - INFO - Found 20 results for 'musical'
+2025-03-30 22:16:52,762 - INFO - Added: Musical () - Rating: 0.0
+2025-03-30 22:16:53,143 - INFO - Added: The Musical Vampire (Action, Comedy, Horror, Music) - Rating: 5.5
+2025-03-30 22:16:53,518 - INFO - Added: La Usurpadora: The Musical (Music, Comedy, Drama) - Rating: 7.5
+2025-03-30 22:16:53,919 - INFO - Added: Roald Dahl's Matilda the Musical (Family, Comedy, Fantasy) - Rating: 6.8
+2025-03-30 22:16:54,285 - INFO - Added: Viva High School Musical: Argentina (Comedy, Romance, Music, TV Movie) - Rating: 6.1
+2025-03-30 22:16:54,536 - INFO - Added 33 movies from search terms
+2025-03-30 22:16:54,536 - INFO - Total movies added from TMDB API: 145
+2025-03-30 22:16:54,537 - INFO - Database population complete. Total movies in database: 165
+2025-03-30 22:29:08,007 - INFO - Starting TMDB database population script...
+2025-03-30 22:29:08,019 - INFO - Found 165 existing shows in database
+2025-03-30 22:29:08,144 - INFO - Successfully connected to TMDB API
+2025-03-30 22:29:08,144 - INFO - Fetching popular movies page 1
+2025-03-30 22:29:08,203 - INFO - Found 20 movies on page 1
+2025-03-30 22:29:08,280 - INFO - Updated poster for: Cleaner
+2025-03-30 22:29:08,600 - INFO - Updated poster for: Cosmic Chaos
+2025-03-30 22:29:08,922 - INFO - Updated poster for: The Codes of War
+2025-03-30 22:29:09,246 - INFO - Updated poster for: Captain America: Brave New World
+2025-03-30 22:29:09,566 - INFO - Updated poster for: Carjackers
+2025-03-30 22:29:09,895 - INFO - Updated poster for: The Quiet Ones
+2025-03-30 22:29:10,226 - INFO - Updated poster for: Snow White
+2025-03-30 22:29:10,548 - INFO - Updated poster for: Popeye the Slayer Man
+2025-03-30 22:29:10,893 - INFO - Updated poster for: Mufasa: The Lion King
+2025-03-30 22:29:11,217 - INFO - Updated poster for: Moana 2
+2025-03-30 22:29:11,538 - INFO - Updated poster for: A Working Man
+2025-03-30 22:29:11,882 - INFO - Updated poster for: Holland
+2025-03-30 22:29:12,209 - INFO - Updated poster for: Batman Ninja vs. Yakuza League
+2025-03-30 22:29:12,728 - INFO - Updated poster for: Z Zone
+2025-03-30 22:29:13,049 - INFO - Updated poster for: Counterattack
+2025-03-30 22:29:13,382 - INFO - Updated poster for: Flight Risk
+2025-03-30 22:29:13,710 - INFO - Updated poster for: Sonic the Hedgehog 3
+2025-03-30 22:29:14,032 - INFO - Updated poster for: Old Guy
+2025-03-30 22:29:14,355 - INFO - Updated poster for: The Electric State
+2025-03-30 22:29:14,678 - INFO - Updated poster for: The Gorge
+2025-03-30 22:29:14,929 - INFO - Fetching popular movies page 2
+2025-03-30 22:29:15,017 - INFO - Found 20 movies on page 2
+2025-03-30 22:29:15,086 - INFO - Updated poster for: Demon City
+2025-03-30 22:29:15,413 - INFO - Updated poster for: The Life List
+2025-03-30 22:29:15,751 - INFO - Updated poster for: Frogman
+2025-03-30 22:29:16,077 - INFO - Updated poster for: Hellhound
+2025-03-30 22:29:16,404 - INFO - Updated poster for: The Monkey
+2025-03-30 22:29:16,801 - INFO - Updated poster for: The Vigilante
+2025-03-30 22:29:17,146 - INFO - Updated poster for: Sky Force
+2025-03-30 22:29:17,465 - INFO - Updated poster for: Dark Match
+2025-03-30 22:29:17,793 - INFO - Updated poster for: A Minecraft Movie
+2025-03-30 22:29:18,113 - INFO - Updated poster for: Companion
+2025-03-30 22:29:18,434 - INFO - Updated poster for: I, the Executioner
+2025-03-30 22:29:18,758 - INFO - Updated poster for: Kraven the Hunter
+2025-03-30 22:29:19,088 - INFO - Updated poster for: Amaran
+2025-03-30 22:29:19,432 - INFO - Updated poster for: Plankton: The Movie
+2025-03-30 22:29:19,751 - INFO - Updated poster for: Giro final
+2025-03-30 22:29:20,073 - INFO - Updated poster for: Venom: The Last Dance
+2025-03-30 22:29:20,394 - INFO - Updated poster for: Flow
+2025-03-30 22:29:20,715 - INFO - Updated poster for: Revelations
+2025-03-30 22:29:21,042 - INFO - Updated poster for: Memoir of a Snail
+2025-03-30 22:29:21,367 - INFO - Updated poster for: Solo Leveling -ReAwakening-
+2025-03-30 22:29:21,618 - INFO - Fetching popular movies page 3
+2025-03-30 22:29:21,706 - INFO - Found 20 movies on page 3
+2025-03-30 22:29:21,782 - INFO - Updated poster for: Mickey 17
+2025-03-30 22:29:22,108 - INFO - Updated poster for: Mar.IA
+2025-03-30 22:29:22,470 - INFO - Updated poster for: Panda Plan
+2025-03-30 22:29:22,817 - INFO - Updated poster for: Deadpool & Wolverine
+2025-03-30 22:29:23,142 - INFO - Updated poster for: Gladiator II
+2025-03-30 22:29:23,468 - INFO - Updated poster for: Bloat
+2025-03-30 22:29:23,789 - INFO - Updated poster for: Presence
+2025-03-30 22:29:24,107 - INFO - Updated poster for: Uppercut
+2025-03-30 22:29:24,433 - INFO - Updated poster for: Tyler Perry's Duplicity
+2025-03-30 22:29:24,755 - INFO - Updated poster for: Despicable Me 4
+2025-03-30 22:29:25,082 - INFO - Updated poster for: Love Hurts
+2025-03-30 22:29:25,410 - INFO - Updated poster for: Henry Danger: The Movie
+2025-03-30 22:29:25,743 - INFO - Updated poster for: Chuck Billy and The Marvelous Guava Tree
+2025-03-30 22:29:26,071 - INFO - Updated poster for: Anora
+2025-03-30 22:29:26,410 - INFO - Updated poster for: The Wild Robot
+2025-03-30 22:29:26,730 - INFO - Updated poster for: Squad 36
+2025-03-30 22:29:27,057 - INFO - Updated poster for: My Fault
+2025-03-30 22:29:27,410 - INFO - Updated poster for: The Substance
+2025-03-30 22:29:27,755 - INFO - Updated poster for: Control Freak
+2025-03-30 22:29:28,091 - INFO - Updated poster for: Ask Me What You Want
+2025-03-30 22:29:28,341 - INFO - Added 0 popular movies
+2025-03-30 22:29:28,422 - INFO - Processing genre: Action
+2025-03-30 22:29:28,508 - INFO - Found 20 movies for genre Action
+2025-03-30 22:29:28,571 - INFO - Skipped (already exists): Cleaner
+2025-03-30 22:29:28,887 - INFO - Skipped (already exists): The Codes of War
+2025-03-30 22:29:29,202 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:29:29,530 - INFO - Skipped (already exists): Carjackers
+2025-03-30 22:29:29,851 - INFO - Skipped (already exists): The Quiet Ones
+2025-03-30 22:29:30,167 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:29:30,484 - INFO - Skipped (already exists): Batman Ninja vs. Yakuza League
+2025-03-30 22:29:30,799 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:29:31,115 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:29:31,427 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:29:31,678 - INFO - Processing genre: Adventure
+2025-03-30 22:29:31,766 - INFO - Found 20 movies for genre Adventure
+2025-03-30 22:29:31,831 - INFO - Skipped (already exists): Carjackers
+2025-03-30 22:29:32,148 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:29:32,464 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:29:32,780 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:29:33,092 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:29:33,407 - INFO - Skipped (already exists): The Electric State
+2025-03-30 22:29:33,797 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:29:34,110 - INFO - Skipped (already exists): Kraven the Hunter
+2025-03-30 22:29:34,447 - INFO - Skipped (already exists): Amaran
+2025-03-30 22:29:34,762 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:29:35,014 - INFO - Processing genre: Animation
+2025-03-30 22:29:35,138 - INFO - Found 20 movies for genre Animation
+2025-03-30 22:29:35,215 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:29:35,527 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:29:35,844 - INFO - Skipped (already exists): Batman Ninja vs. Yakuza League
+2025-03-30 22:29:36,152 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:29:36,461 - INFO - Skipped (already exists): Flow
+2025-03-30 22:29:36,771 - INFO - Skipped (already exists): Memoir of a Snail
+2025-03-30 22:29:37,104 - INFO - Skipped (already exists): Solo Leveling -ReAwakening-
+2025-03-30 22:29:37,420 - INFO - Skipped (already exists): Despicable Me 4
+2025-03-30 22:29:37,734 - INFO - Skipped (already exists): The Wild Robot
+2025-03-30 22:29:38,076 - INFO - Skipped (already exists): Inside Out 2
+2025-03-30 22:29:38,327 - INFO - Processing genre: Comedy
+2025-03-30 22:29:38,411 - INFO - Found 20 movies for genre Comedy
+2025-03-30 22:29:38,482 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:29:38,803 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:29:39,116 - INFO - Skipped (already exists): Old Guy
+2025-03-30 22:29:39,431 - INFO - Skipped (already exists): The Life List
+2025-03-30 22:29:39,749 - INFO - Skipped (already exists): The Monkey
+2025-03-30 22:29:40,060 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:29:40,372 - INFO - Skipped (already exists): Companion
+2025-03-30 22:29:40,681 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:29:40,995 - INFO - Skipped (already exists): Memoir of a Snail
+2025-03-30 22:29:41,311 - INFO - Skipped (already exists): Mickey 17
+2025-03-30 22:29:41,563 - INFO - Processing genre: Crime
+2025-03-30 22:29:41,650 - INFO - Found 20 movies for genre Crime
+2025-03-30 22:29:41,715 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:29:42,032 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:29:42,342 - INFO - Skipped (already exists): Demon City
+2025-03-30 22:29:42,686 - INFO - Skipped (already exists): Hellhound
+2025-03-30 22:29:43,001 - INFO - Skipped (already exists): I, the Executioner
+2025-03-30 22:29:44,320 - INFO - Skipped (already exists): Revelations
+2025-03-30 22:29:44,636 - INFO - Skipped (already exists): Squad 36
+2025-03-30 22:29:44,969 - INFO - Skipped (already exists): Alarum
+2025-03-30 22:29:45,318 - INFO - Skipped (already exists): xXx
+2025-03-30 22:29:45,668 - INFO - Skipped (already exists): The Shawshank Redemption
+2025-03-30 22:29:45,920 - INFO - Processing genre: Documentary
+2025-03-30 22:29:46,016 - INFO - Found 20 movies for genre Documentary
+2025-03-30 22:29:46,101 - INFO - Skipped (already exists): Le Clitoris
+2025-03-30 22:29:46,446 - INFO - Skipped (already exists): Con Mum
+2025-03-30 22:29:46,785 - INFO - Skipped (already exists): The Twister: Caught in the Storm
+2025-03-30 22:29:47,119 - INFO - Skipped (already exists): Playboy Video Playmate Calendar 2000
+2025-03-30 22:29:47,457 - INFO - Skipped (already exists): Squid Game: Making Season 2
+2025-03-30 22:29:47,794 - INFO - Skipped (already exists): 2073
+2025-03-30 22:29:48,182 - INFO - Skipped (already exists): Chaos: The Manson Murders
+2025-03-30 22:29:48,516 - INFO - Skipped (already exists): Making Squid Game: The Challenge
+2025-03-30 22:29:48,855 - INFO - Skipped (already exists): Who Is Luigi Mangione?
+2025-03-30 22:29:49,190 - INFO - Skipped (already exists): Africa Addio
+2025-03-30 22:29:49,440 - INFO - Processing genre: Drama
+2025-03-30 22:29:49,522 - INFO - Found 20 movies for genre Drama
+2025-03-30 22:29:49,582 - INFO - Skipped (already exists): The Quiet Ones
+2025-03-30 22:29:49,907 - INFO - Skipped (already exists): The Life List
+2025-03-30 22:29:50,224 - INFO - Skipped (already exists): Amaran
+2025-03-30 22:29:50,536 - INFO - Skipped (already exists): Memoir of a Snail
+2025-03-30 22:29:50,854 - INFO - Skipped (already exists): Gladiator II
+2025-03-30 22:29:51,165 - INFO - Skipped (already exists): Presence
+2025-03-30 22:29:51,481 - INFO - Skipped (already exists): Uppercut
+2025-03-30 22:29:51,791 - INFO - Skipped (already exists): Tyler Perry's Duplicity
+2025-03-30 22:29:52,108 - INFO - Skipped (already exists): Anora
+2025-03-30 22:29:52,420 - INFO - Skipped (already exists): Squad 36
+2025-03-30 22:29:52,671 - INFO - Processing genre: Family
+2025-03-30 22:29:52,761 - INFO - Found 20 movies for genre Family
+2025-03-30 22:29:52,830 - INFO - Skipped (already exists): Snow White
+2025-03-30 22:29:53,147 - INFO - Skipped (already exists): Mufasa: The Lion King
+2025-03-30 22:29:53,457 - INFO - Skipped (already exists): Moana 2
+2025-03-30 22:29:53,769 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:29:54,079 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:29:54,388 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:29:54,704 - INFO - Skipped (already exists): Despicable Me 4
+2025-03-30 22:29:55,021 - INFO - Skipped (already exists): Henry Danger: The Movie
+2025-03-30 22:29:55,337 - INFO - Skipped (already exists): Chuck Billy and The Marvelous Guava Tree
+2025-03-30 22:29:55,657 - INFO - Skipped (already exists): The Wild Robot
+2025-03-30 22:29:55,908 - INFO - Processing genre: Fantasy
+2025-03-30 22:29:55,991 - INFO - Found 20 movies for genre Fantasy
+2025-03-30 22:29:56,057 - INFO - Skipped (already exists): Snow White
+2025-03-30 22:29:56,374 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:29:56,685 - INFO - Skipped (already exists): Demon City
+2025-03-30 22:29:56,999 - INFO - Skipped (already exists): Frogman
+2025-03-30 22:29:57,315 - INFO - Skipped (already exists): A Minecraft Movie
+2025-03-30 22:29:57,630 - INFO - Skipped (already exists): Plankton: The Movie
+2025-03-30 22:29:57,945 - INFO - Skipped (already exists): Flow
+2025-03-30 22:29:58,262 - INFO - Skipped (already exists): Solo Leveling -ReAwakening-
+2025-03-30 22:29:58,597 - INFO - Skipped (already exists): Dalia and the Red Book
+2025-03-30 22:29:58,932 - INFO - Skipped (already exists): Red One
+2025-03-30 22:29:59,183 - INFO - Processing genre: History
+2025-03-30 22:29:59,270 - INFO - Found 20 movies for genre History
+2025-03-30 22:29:59,360 - INFO - Skipped (already exists): Oppenheimer
+2025-03-30 22:29:59,680 - INFO - Skipped (already exists): Napoleon
+2025-03-30 22:30:00,062 - INFO - Skipped (already exists): I'm Still Here
+2025-03-30 22:30:00,414 - INFO - Skipped (already exists): Hidden Figures
+2025-03-30 22:30:00,731 - INFO - Skipped (already exists): Schindler's List
+2025-03-30 22:30:01,068 - INFO - Skipped (already exists): The Fire Inside
+2025-03-30 22:30:01,390 - INFO - Skipped (already exists): Saving Private Ryan
+2025-03-30 22:30:01,738 - INFO - Skipped (already exists): Hacksaw Ridge
+2025-03-30 22:30:02,078 - INFO - Skipped (already exists): The Imitation Game
+2025-03-30 22:30:02,423 - INFO - Skipped (already exists): Troy
+2025-03-30 22:30:02,675 - INFO - Processing genre: Horror
+2025-03-30 22:30:02,762 - INFO - Found 20 movies for genre Horror
+2025-03-30 22:30:02,822 - INFO - Skipped (already exists): Popeye the Slayer Man
+2025-03-30 22:30:03,131 - INFO - Skipped (already exists): Z Zone
+2025-03-30 22:30:03,446 - INFO - Skipped (already exists): Frogman
+2025-03-30 22:30:03,759 - INFO - Skipped (already exists): The Monkey
+2025-03-30 22:30:04,075 - INFO - Skipped (already exists): Dark Match
+2025-03-30 22:30:04,385 - INFO - Skipped (already exists): Companion
+2025-03-30 22:30:04,700 - INFO - Skipped (already exists): Giro final
+2025-03-30 22:30:05,029 - INFO - Skipped (already exists): Mar.IA
+2025-03-30 22:30:05,339 - INFO - Skipped (already exists): Bloat
+2025-03-30 22:30:05,653 - INFO - Skipped (already exists): Presence
+2025-03-30 22:30:05,904 - INFO - Processing genre: Music
+2025-03-30 22:30:05,989 - INFO - Found 20 movies for genre Music
+2025-03-30 22:30:06,074 - INFO - Skipped (already exists): Coco
+2025-03-30 22:30:06,411 - INFO - Skipped (already exists): A Complete Unknown
+2025-03-30 22:30:06,751 - INFO - Skipped (already exists): O'Dessa
+2025-03-30 22:30:07,132 - INFO - Skipped (already exists): Better Man
+2025-03-30 22:30:07,472 - INFO - Skipped (already exists): Whiplash
+2025-03-30 22:30:07,828 - INFO - Skipped (already exists): La La Land
+2025-03-30 22:30:08,169 - INFO - Skipped (already exists): Sing: Thriller
+2025-03-30 22:30:08,525 - INFO - Skipped (already exists): Tabu
+2025-03-30 22:30:08,867 - INFO - Skipped (already exists): Sing 2
+2025-03-30 22:30:09,207 - INFO - Skipped (already exists): Trolls Band Together
+2025-03-30 22:30:09,458 - INFO - Processing genre: Mystery
+2025-03-30 22:30:09,540 - INFO - Found 20 movies for genre Mystery
+2025-03-30 22:30:09,600 - INFO - Skipped (already exists): Holland
+2025-03-30 22:30:09,915 - INFO - Skipped (already exists): Revelations
+2025-03-30 22:30:10,274 - INFO - Skipped (already exists): Black Bag
+2025-03-30 22:30:10,610 - INFO - Skipped (already exists): Final Destination Bloodlines
+2025-03-30 22:30:10,943 - INFO - Skipped (already exists): The Curse of the Necklace
+2025-03-30 22:30:11,285 - INFO - Skipped (already exists): Fast X
+2025-03-30 22:30:11,667 - INFO - Skipped (already exists): Absolution
+2025-03-30 22:30:12,010 - INFO - Skipped (already exists): Smile 2
+2025-03-30 22:30:12,353 - INFO - Skipped (already exists): Conclave
+2025-03-30 22:30:12,692 - INFO - Skipped (already exists): The Maze Runner
+2025-03-30 22:30:12,943 - INFO - Processing genre: Romance
+2025-03-30 22:30:13,031 - INFO - Found 20 movies for genre Romance
+2025-03-30 22:30:13,099 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:30:13,415 - INFO - Skipped (already exists): The Life List
+2025-03-30 22:30:13,725 - INFO - Skipped (already exists): Love Hurts
+2025-03-30 22:30:14,043 - INFO - Skipped (already exists): Anora
+2025-03-30 22:30:14,360 - INFO - Skipped (already exists): My Fault
+2025-03-30 22:30:14,675 - INFO - Skipped (already exists): Ask Me What You Want
+2025-03-30 22:30:14,991 - INFO - Skipped (already exists): The Glassworker
+2025-03-30 22:30:15,343 - INFO - Skipped (already exists): Your Fault
+2025-03-30 22:30:15,708 - INFO - Skipped (already exists): Wicked
+2025-03-30 22:30:16,043 - INFO - Skipped (already exists): My Fault: London
+2025-03-30 22:30:16,293 - INFO - Processing genre: Science Fiction
+2025-03-30 22:30:16,376 - INFO - Found 20 movies for genre Science Fiction
+2025-03-30 22:30:16,458 - INFO - Skipped (already exists): Cosmic Chaos
+2025-03-30 22:30:16,776 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:30:17,087 - INFO - Skipped (already exists): Sonic the Hedgehog 3
+2025-03-30 22:30:17,406 - INFO - Skipped (already exists): The Electric State
+2025-03-30 22:30:17,720 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:30:18,040 - INFO - Skipped (already exists): Companion
+2025-03-30 22:30:18,376 - INFO - Skipped (already exists): Venom: The Last Dance
+2025-03-30 22:30:18,690 - INFO - Skipped (already exists): Mickey 17
+2025-03-30 22:30:18,999 - INFO - Skipped (already exists): Mar.IA
+2025-03-30 22:30:19,327 - INFO - Skipped (already exists): Deadpool & Wolverine
+2025-03-30 22:30:19,578 - INFO - Processing genre: TV Movie
+2025-03-30 22:30:19,666 - INFO - Found 20 movies for genre TV Movie
+2025-03-30 22:30:19,755 - INFO - Skipped (already exists): Anastasia
+2025-03-30 22:30:20,108 - INFO - Skipped (already exists): SpongeBob Squarepants: Kreepaway Kamp
+2025-03-30 22:30:20,442 - INFO - Skipped (already exists): Girl in the Basement
+2025-03-30 22:30:20,782 - INFO - Skipped (already exists): Death Note Relight 1: Visions of a God
+2025-03-30 22:30:21,126 - INFO - Skipped (already exists): Leroy & Stitch
+2025-03-30 22:30:21,467 - INFO - Skipped (already exists): Death Note Relight 2: L's Successors
+2025-03-30 22:30:21,805 - INFO - Skipped (already exists): Feast of the Fallen Angels
+2025-03-30 22:30:22,139 - INFO - Skipped (already exists): Little Women: Jo's Story
+2025-03-30 22:30:22,481 - INFO - Skipped (already exists): Teen Wolf: The Movie
+2025-03-30 22:30:22,819 - INFO - Skipped (already exists): Descendants
+2025-03-30 22:30:23,070 - INFO - Processing genre: Thriller
+2025-03-30 22:30:23,161 - INFO - Found 20 movies for genre Thriller
+2025-03-30 22:30:23,220 - INFO - Skipped (already exists): Cleaner
+2025-03-30 22:30:23,529 - INFO - Skipped (already exists): Cosmic Chaos
+2025-03-30 22:30:23,848 - INFO - Skipped (already exists): Captain America: Brave New World
+2025-03-30 22:30:24,165 - INFO - Skipped (already exists): A Working Man
+2025-03-30 22:30:24,482 - INFO - Skipped (already exists): Holland
+2025-03-30 22:30:24,797 - INFO - Skipped (already exists): Counterattack
+2025-03-30 22:30:25,114 - INFO - Skipped (already exists): Flight Risk
+2025-03-30 22:30:25,424 - INFO - Skipped (already exists): The Gorge
+2025-03-30 22:30:25,734 - INFO - Skipped (already exists): Demon City
+2025-03-30 22:30:26,044 - INFO - Skipped (already exists): Hellhound
+2025-03-30 22:30:26,295 - INFO - Processing genre: War
+2025-03-30 22:30:26,387 - INFO - Found 20 movies for genre War
+2025-03-30 22:30:26,455 - INFO - Skipped (already exists): The Codes of War
+2025-03-30 22:30:26,763 - INFO - Skipped (already exists): Amaran
+2025-03-30 22:30:27,086 - INFO - Skipped (already exists): The Glassworker
+2025-03-30 22:30:27,427 - INFO - Skipped (already exists): Dirty Angels
+2025-03-30 22:30:27,744 - INFO - Skipped (already exists): Napoleon
+2025-03-30 22:30:28,064 - INFO - Skipped (already exists): Schindler's List
+2025-03-30 22:30:28,404 - INFO - Skipped (already exists): She Devils of the SS
+2025-03-30 22:30:28,744 - INFO - Skipped (already exists): Fury
+2025-03-30 22:30:29,084 - INFO - Skipped (already exists): Civil War
+2025-03-30 22:30:29,399 - INFO - Skipped (already exists): Saving Private Ryan
+2025-03-30 22:30:29,650 - INFO - Processing genre: Western
+2025-03-30 22:30:29,733 - INFO - Found 20 movies for genre Western
+2025-03-30 22:30:29,825 - INFO - Skipped (already exists): Django Unchained
+2025-03-30 22:30:30,162 - INFO - Skipped (already exists): The Good, the Bad and the Ugly
+2025-03-30 22:30:30,500 - INFO - Skipped (already exists): The Revenant
+2025-03-30 22:30:30,841 - INFO - Skipped (already exists): Once Upon a Time in the West
+2025-03-30 22:30:31,176 - INFO - Skipped (already exists): Redeeming Love
+2025-03-30 22:30:31,522 - INFO - Skipped (already exists): El Infierno
+2025-03-30 22:30:31,856 - INFO - Skipped (already exists): The Hateful Eight
+2025-03-30 22:30:32,213 - INFO - Skipped (already exists): Spirit: Stallion of the Cimarron
+2025-03-30 22:30:32,581 - INFO - Skipped (already exists): Rango
+2025-03-30 22:30:32,918 - INFO - Skipped (already exists): Legends of the Fall
+2025-03-30 22:30:33,169 - INFO - Added 0 genre-specific movies
+2025-03-30 22:30:33,169 - INFO - Searching for: comedy
+2025-03-30 22:30:33,256 - INFO - Found 20 results for 'comedy'
+2025-03-30 22:30:33,406 - INFO - Skipped (already exists): Comedy
+2025-03-30 22:30:33,740 - INFO - Skipped (already exists): This Is Not a Comedy
+2025-03-30 22:30:34,099 - INFO - Skipped (already exists): Romantic Comedy
+2025-03-30 22:30:34,433 - INFO - Skipped (already exists): Sex Is Comedy
+2025-03-30 22:30:34,769 - INFO - Skipped (already exists): Hannibal Buress: Comedy Camisado
+2025-03-30 22:30:35,020 - INFO - Searching for: sci-fi
+2025-03-30 22:30:35,105 - INFO - Found 20 results for 'sci-fi'
+2025-03-30 22:30:35,232 - INFO - Skipped (already exists): Sci-Fi West Saga Starzinger
+2025-03-30 22:30:35,565 - INFO - Skipped (already exists): Sci-Fi High: The Movie Musical
+2025-03-30 22:30:35,904 - INFO - Skipped (already exists): Deformity Sci-Fi
+2025-03-30 22:30:36,263 - INFO - Skipped (already exists): Sci-fighters
+2025-03-30 22:30:36,604 - INFO - Skipped (already exists): Hollywood between Paranoia and Sci-Fi: The Power of Myth
+2025-03-30 22:30:36,855 - INFO - Searching for: romance
+2025-03-30 22:30:36,959 - INFO - Found 20 results for 'romance'
+2025-03-30 22:30:37,048 - INFO - Skipped (already exists): Romance
+2025-03-30 22:30:37,384 - INFO - Skipped (already exists): Romance
+2025-03-30 22:30:37,721 - INFO - Skipped (already exists): Romance
+2025-03-30 22:30:38,061 - INFO - Skipped (already exists): Romance
+2025-03-30 22:30:38,396 - INFO - Skipped (already exists): Romance
+2025-03-30 22:30:38,647 - INFO - Searching for: animated
+2025-03-30 22:30:38,735 - INFO - Found 20 results for 'animated'
+2025-03-30 22:30:38,836 - INFO - Skipped (already exists): Animated
+2025-03-30 22:30:39,178 - INFO - Skipped (already exists): Street Fighter II: The Animated Movie
+2025-03-30 22:30:39,513 - INFO - Skipped (already exists): Game of Thrones - Conquest & Rebellion: An Animated History of the Seven Kingdoms
+2025-03-30 22:30:39,849 - INFO - Skipped (already exists): KOF XV - Special Animated Short
+2025-03-30 22:30:40,183 - INFO - Skipped (already exists): The Best of Rooster Teeth Animated Adventures
+2025-03-30 22:30:40,434 - INFO - Searching for: action
+2025-03-30 22:30:40,517 - INFO - Found 20 results for 'action'
+2025-03-30 22:30:40,599 - INFO - Skipped (already exists): Action
+2025-03-30 22:30:40,938 - INFO - Skipped (already exists): Action
+2025-03-30 22:30:41,271 - INFO - Skipped (already exists): Action
+2025-03-30 22:30:41,606 - INFO - Skipped (already exists): Action
+2025-03-30 22:30:41,943 - INFO - Skipped (already exists): Action!
+2025-03-30 22:30:42,194 - INFO - Searching for: thriller
+2025-03-30 22:30:42,281 - INFO - Found 20 results for 'thriller'
+2025-03-30 22:30:42,365 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:30:42,696 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:30:43,030 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:30:43,364 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:30:43,702 - INFO - Skipped (already exists): Thriller
+2025-03-30 22:30:43,954 - INFO - Searching for: documentary
+2025-03-30 22:30:44,041 - INFO - Found 20 results for 'documentary'
+2025-03-30 22:30:44,130 - INFO - Skipped (already exists): Documentary
+2025-03-30 22:30:44,467 - INFO - Skipped (already exists): DOCUMENTARY
+2025-03-30 22:30:44,800 - INFO - Skipped (already exists): Holding On: A Widowdusk Documentary
+2025-03-30 22:30:45,135 - INFO - Skipped (already exists): Friday the 13th: From Crystal Lake to Manhattan (Crystal Lake Victims Tell All - Documentary)
+2025-03-30 22:30:45,473 - INFO - Skipped (already exists): Psychic Documentary: Hair-Raising Spiritual Boundary Phenomenon!!
+2025-03-30 22:30:45,724 - INFO - Searching for: fantasy
+2025-03-30 22:30:45,853 - INFO - Found 20 results for 'fantasy'
+2025-03-30 22:30:45,941 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:30:46,302 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:30:46,642 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:30:46,980 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:30:47,313 - INFO - Skipped (already exists): Fantasy
+2025-03-30 22:30:47,565 - INFO - Searching for: horror
+2025-03-30 22:30:47,647 - INFO - Found 20 results for 'horror'
+2025-03-30 22:30:47,735 - INFO - Skipped (already exists): The Blancheville Monster
+2025-03-30 22:30:48,068 - INFO - Skipped (already exists): #Horror
+2025-03-30 22:30:48,403 - INFO - Skipped (already exists): Horror
+2025-03-30 22:30:48,736 - INFO - Skipped (already exists): Horror
+2025-03-30 22:30:49,069 - INFO - Skipped (already exists): Horror
+2025-03-30 22:30:49,320 - INFO - Searching for: musical
+2025-03-30 22:30:49,402 - INFO - Found 20 results for 'musical'
+2025-03-30 22:30:49,485 - INFO - Skipped (already exists): Musical
+2025-03-30 22:30:49,847 - INFO - Skipped (already exists): The Musical Vampire
+2025-03-30 22:30:50,184 - INFO - Skipped (already exists): La Usurpadora: The Musical
+2025-03-30 22:30:50,532 - INFO - Skipped (already exists): Roald Dahl's Matilda the Musical
+2025-03-30 22:30:50,874 - INFO - Skipped (already exists): Viva High School Musical: Argentina
+2025-03-30 22:30:51,125 - INFO - Added 0 movies from search terms
+2025-03-30 22:30:51,125 - INFO - Total movies added from TMDB API: 0
+2025-03-30 22:30:51,125 - INFO - Database population complete. Total movies in database: 165
