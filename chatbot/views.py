@@ -128,9 +128,7 @@ def chat_message(request):
 
                 # If no shows found or no genres detected, get some default shows
                 if not shows:
-                    # Get total count of shows
                     total_shows = Show.objects.count()
-                    # If we have a reasonable number of shows, add some randomness
                     if total_shows > 10:
                         # Get a mix of top-rated and random shows
                         top_shows = list(Show.objects.all().order_by('-rating')[:5])
